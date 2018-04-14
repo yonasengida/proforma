@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Customer extends CI_Controller {
+class Stock extends CI_Controller {
 
 	function _construct(){
 		parent:: _construct();
@@ -9,20 +9,27 @@ class Customer extends CI_Controller {
 	}
 
 	public function index(){
-		$data['title']="Customer Registration Form";
+		$data['title']="Stock";
 		$this->load->view('layout/header');
-		$this->load->model('Customer_model');
-		$data['profiles']=$this->Customer_model->get();
-		$this->load->view('customer/index',$data);
+		$this->load->model('Stock_model');
+		$data['profiles']=$this->Stock_model->get();
+		$this->load->view('stock/index',$data);
 		$this->load->view('layout/footer');
-	}
+	}//END
 	public function getById(){
 		//	echo $this->input->post('uid');
 			$this->load->model('Customer_model');
 			echo json_encode($this->Customer_model->get_single($this->input->post('uid')));
 
 	}
+	//END
 	public function get(){
+		//	echo $this->input->post('uid');
+			$this->load->model('Customer_model');
+			echo json_encode($this->Customer_model->get_all());
+
+	}
+	public function get_items(){
 		//	echo $this->input->post('uid');
 			$this->load->model('Customer_model');
 			echo json_encode($this->Customer_model->get_all());

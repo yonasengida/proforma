@@ -36,7 +36,7 @@
 
     <div class="container ">
       <div class="col-md-12"  style="margin-top:40px">
-        <img class="" src="<?php echo base_url("assets/images/micro_header.jpg");?>"/>
+        <img class="" src="<?php echo base_url("assets/images/Olivet Web Banner.jpg");?>"/>
       <!-- <h2 class="form-signin-heading">Please sign in</h2> -->
     </div>
           <div class="col-md-4"></div>
@@ -60,7 +60,9 @@
 
         	    	</div>
                 <div class="col-md-12">
-                  <?php// if(! is_null($err)) echo $err;?>
+                  <?php
+                  // if(! is_null($err)) echo $err;
+                  ?>
               </div>
                 <div class="col-md-12"  style="margin-top:20px">
                <div class="col-md-3">

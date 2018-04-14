@@ -51,6 +51,15 @@ class Item_model extends CI_Model{
 		$this->db->where('item_id',$data['item_id'] );
 		$this->db->update('tbl_item',$data);
 	}
+	public function create($data){
+
+		$this->db->insert('tbl_item',$data);
+		if($this->db->affected_rows()>0){
+					 return true;
+		}else{
+			return false;
+		}
+	}
 
 
 

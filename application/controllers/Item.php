@@ -9,7 +9,7 @@ class Item extends CI_Controller {
 	}
 
 	public function index(){
-		$data['title']="Ite Registration Form";
+		//$data['title']="Ite Registration Form";
 		$this->load->view('layout/header');
 		$this->load->model('Item_model');
 		$data['profiles']=$this->Item_model->get_all();

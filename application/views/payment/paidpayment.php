@@ -5,7 +5,7 @@
 
 <div class="container box">
 	<div class="table-responsive">
-		<table id="sender_info" class="table table-bordered table-striped">
+		<table id="sender_info" class="table table-bordered stripe">
 			<thead>
 				<tr>
 					<th width="">Date</th>

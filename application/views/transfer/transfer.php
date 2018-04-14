@@ -230,13 +230,13 @@ $(document).ready(function(){
 		  <div class="col-md-6">
 		  	 <div class="form-group">
 				    <label for="sender_fname">First Name </label>
-				    <input type="text" class="form-control" id="sender_fname" name="sender_fname" placeholder="First Name" required>
+				    <input type="text" class="form-control" id="sender_fname" name="sender_fname" placeholder="First Name" >
 			</div>
 			</div>
 			<div class="col-md-6">
 			 <div class="form-group">
 				    <label for="sender_mname">Middle Name </label>
-				    <input type="text" class="form-control" id="sender_mname" name="sender_mname" placeholder="Middle Name" required>
+				    <input type="text" class="form-control" id="sender_mname" name="sender_mname" placeholder="Middle Name" >
 			</div>
 			</div>
 		  </div>
@@ -244,7 +244,7 @@ $(document).ready(function(){
 		  <div class="col-md-6">
 		  	 <div class="form-group">
 				    <label for="sender_lname">Last Name </label>
-				    <input type="text" class="form-control" id="sender_lname" name="sender_lname" placeholder="Last Name" required>
+				    <input type="text" class="form-control" id="sender_lname" name="sender_lname" placeholder="Last Name" >
 			</div>
 			</div>
 			<div class="col-md-6">
@@ -320,13 +320,13 @@ $(document).ready(function(){
 		  <div class="col-md-6">
 		  	 <div class="form-group">
 				    <label for="fname">First Name </label>
-				    <input type="text" class="form-control" id="rcvr_fname" name="rcvr_fname" placeholder="First Name" required>
+				    <input type="text" class="form-control" id="rcvr_fname" name="rcvr_fname" placeholder="First Name">
 			</div>
 			</div>
 			<div class="col-md-6">
 			 <div class="form-group">
 				    <label for="mname">Middle Name </label>
-				    <input type="text" class="form-control" id="rcvr_mname" name="rcvr_mname" placeholder="Middle Name" required>
+				    <input type="text" class="form-control" id="rcvr_mname" name="rcvr_mname" placeholder="Middle Name" >
 			</div>
 			</div>
 		  </div>
@@ -334,7 +334,7 @@ $(document).ready(function(){
 		  <div class="col-md-6">
 		  	 <div class="form-group">
 				    <label for="lname">Last Name </label>
-				    <input type="text" class="form-control" id="rcvr_lname" name="rcvr_lname" placeholder="Last Name" required>
+				    <input type="text" class="form-control" id="rcvr_lname" name="rcvr_lname" placeholder="Last Name" >
 			</div>
 			</div>
 			<div class="col-md-6">
@@ -404,7 +404,7 @@ $(document).ready(function(){
 		  </div>
 		</div>
 
-		 <div class="row" style="margin-top:10px">
+		 <div class="row" style="margin-top:2px">
 		         <button type="submit" name="confrim" class="btn btn-success center-block">Send</button>
 		 </div>
 

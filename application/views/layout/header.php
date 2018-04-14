@@ -33,8 +33,8 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class=""><a href="<?php echo base_url().'home'?>"><i class="glyphicon glyphicon-home"></i></a></li>
-             <!-- <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>-->
+              <!---------------------------------------------------------------------------------------------------------------->
+
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proforma<span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -45,35 +45,19 @@
                     <li role="separator" class="divider"></li>
                   <li><a href="<?php echo base_url().'proforma/getSummaryByCustomer'?>">View Proforma</a></li>
                   <li role="separator" class="divider"></li>
-                  <!-- <li><a href="<?php echo base_url().'aprove'?>">Aprove Trasnfer</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="<?php echo base_url().'aprove/getAproved'?>">View Aproved Trasnfer</a></li>
-                  <li role="separator" class="divider"></li> -->
-
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Customer<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="<?php echo base_url().'customer'?>">New</a></li>
-
                    <li role="separator" class="divider"></li>
                   <li><a href="<?php echo base_url().'customer'?>">View Customer </a></li>
                   <li role="separator" class="divider"></li>
 
                 </ul>
               </li>
-              <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Report<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="<?php echo base_url().'payment/search_by_date'?>">Payment Report</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="<?php echo base_url().'transfer/search_by_date'?>">Money Transfer Report</a></li>
-                  <li role="separator" class="divider"></li>
-
-                </ul>
-              </li> -->
-              <li class="dropdown">
+                <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Setting<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="<?php echo base_url().'item'?>">Create Item</a></li>
@@ -81,12 +65,6 @@
                   <li><a href="<?php echo base_url().'brand'?>">Create Brand</a></li>
                   <li><a href="<?php echo base_url().'user'?>">Create User</a></li>
                   <li><a href="<?php echo base_url().'group'?>">Create Group</a></li>
-                   <!-- <li role="separator" class="divider"></li>
-                  <li><a href="#">Upadte Transfer</a></li>
-                   <li role="separator" class="divider"></li>
-                  <li><a href="<?php echo base_url().'transfer/get'?>">View Trasnfer</a></li>
-                  <li role="separator" class="divider"></li> -->
-
                 </ul>
               </li>
             </ul>
@@ -94,7 +72,7 @@
               <li><a href="">Loged In As {<?php  echo $this->session->userdata('user_name');?>} From Branch:<?php  echo $this->session->userdata('branch');?></a></li>
               <li><a href="<?php echo base_url().'auth/logout'?>">Logout</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
+          </div>
+        </div>
       </nav>
        <div class="container">
